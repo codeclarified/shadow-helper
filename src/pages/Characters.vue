@@ -34,7 +34,8 @@
             :columns="attributeColumns"
             row-key="name"
             style="max-width: 500px"
-            pagination="false"
+            hide-bottom
+            :pagination="attributePagination"
           />
         </q-card-section>
       </q-card>
@@ -438,7 +439,10 @@ export default {
         { name: 'attribute', align: 'center', label: 'Attribute', field: attribute => attribute.name },
         { name: 'attributeCode', align: 'right', label: '', field: attribute => attribute.code },
         { name: 'attributeValue', align: 'left', label: 'Value', field:  attribute => attribute.value }
-      ]
+      ],
+      attributePagination: {
+        rowsPerPage: 0
+      }
     }
   }
 }

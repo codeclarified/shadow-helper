@@ -10,10 +10,19 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
+        <q-btn
+          class="q-ml-xl"
+          icon="code"
+          label="Github Repository"
+          type="a"
+          href="https://github.com/codeclarified/shadow-helper"
+          target="_blank"
+        />
       </q-toolbar>
       <div class="q-px-lg q-pt-l q-mb-md">
         <div class="text-h4">Shadow Helper</div>
       </div>
+
     </q-header>
 
     <q-drawer
