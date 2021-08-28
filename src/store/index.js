@@ -18,8 +18,8 @@ export default store(function (/* { ssrContext } */) {
       characters: [
         {
           id: 1,
-          name: 'Lenny',
-          race: 'Troll',
+          name: 'Orange Slice',
+          race: 'Orc',
           owner: 'Jason',
           status: [
             'Fatigued'
